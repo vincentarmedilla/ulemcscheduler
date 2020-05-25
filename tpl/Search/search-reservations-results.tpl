@@ -69,7 +69,7 @@ $(function () {
 })(jQuery);
 </script>
 <div id="rerank_details" class="gen_comment">
-        <div id="customize-column"><div class=""><div><label><input type="checkbox" name="col1" checked="checked">{translate key=OwnerUser}</label></div><div><label><input type="checkbox" checked="checked" name="col2"> {translate key=Resource}</label></div><div><label><input type="checkbox" checked="checked" name="col3"> {translate key=ProjectLead}</label></div><div><label><input type="checkbox" checked="checked" name="col4"> {translate key=Title}</label></div><div><label><input type="checkbox" checked="checked" name="col5"> {translate key=Description}</label></div><div><label><input type="checkbox" checked="checked" name="col6"> {translate key=ClientName}</label></div><div><label><input type="checkbox" checked="checked" name="col7"> {translate key=ProjOrderNo}</label></div><div><label><input type="checkbox" checked="checked" name="col8"> {translate key=RequestNo}</label></div><div><label><input type="checkbox" checked="checked" name="col9"> {translate key=BeginDate}</label></div><div><label><input type="checkbox" checked="checked" name="col10"> {translate key=EndDate}</label></div><div><label><input type="checkbox" checked="checked" name="col11"> {translate key=Duration}</label></div><div><label><input type="checkbox" checked="checked" name="col12">{translate key=Created}</label></div><div><label><input type="checkbox" checked="checked" name="col13"> {translate key=LastModified}</label></div></div></div>
+        <div id="customize-column"><div class=""><div><label><input type="checkbox" name="col1" checked="checked">{translate key=OwnerUser}</label></div><div><label><input type="checkbox" checked="checked" name="col2"> {translate key=Resource}</label></div><div><label><input type="checkbox" checked="checked" name="col3"> {translate key=ProjectLead}</label></div><div><label><input type="checkbox" checked="checked" name="col4"> {translate key=Title}</label></div><div><label><input type="checkbox" checked="checked" name="col5"> {translate key=Description}</label></div><div><label><input type="checkbox" checked="checked" name="col6"> {translate key=ClientName}</label></div><div><label><input type="checkbox" checked="checked" name="col7"> {translate key=ProjOrderNo}</label></div><div><label><input type="checkbox" checked="checked" name="col8"> {translate key=RequestNo}</label></div><div><label><input type="checkbox" checked="checked" name="col9"> {translate key=BeginDate}</label></div><div><label><input type="checkbox" checked="checked" name="col10"> {translate key=EndDate}</label></div><div><label><input type="checkbox" checked="checked" name="col11"> {translate key=Duration}</label></div><div><label><input type="checkbox" checked="checked" name="col12"> Date {translate key=Created}</label></div><div><label><input type="checkbox" checked="checked" name="col13"> {translate key=LastModified}</label></div></div></div>
         
 </div>
 
@@ -96,7 +96,7 @@ $(function () {
 		<th class="col9">{translate key=BeginDate}</th>
 		<th class="col10">{translate key=EndDate}</th>
 		<th class="col11">{translate key=Duration}</th>
-		<th class="col12">{translate key=Created}</th>
+		<th class="col12">Date {translate key=Created}</th>
 		<th class="col13">{translate key=LastModified}</th>
 	</tr>
 	</thead>
